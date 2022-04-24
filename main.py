@@ -1,7 +1,7 @@
 import math
-dane = input()
-n = int(dane[0])
-k = int(dane[2])
+n,k= input().split(" ")
+n = int(n)
+k = int(k)
 
 if n == 0 or k == 0 or k > n :
   print(1)
